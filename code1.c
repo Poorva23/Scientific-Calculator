@@ -123,3 +123,63 @@ void text();
 		bar3d(580,290,620,320,2,2);
 		bar3d(580,340,620,370,2,2);
 		bar3d(580,390,620,420,2,2);
+
+		setcolor(0);
+		outtextxy(248,252, "1");
+		outtextxy(300,252, "2");
+		outtextxy(348,252, "3");
+		outtextxy(248,302, "4");
+		outtextxy(300,302, "5");
+		outtextxy(348,302, "6");
+		outtextxy(248,352, "7");
+		outtextxy(300,352, "8");
+		outtextxy(348,352, "9");
+
+		outtextxy(240,402, "EXP");
+		outtextxy(300,402, "0");
+		outtextxy(348,402, ".");
+
+		outtextxy(400,252, "+");
+		outtextxy(440,252, "sin");
+		outtextxy(492,252, "cos");
+		outtextxy(540,252, "tan");
+		outtextxy(594,252, "AC");
+
+		outtextxy(400,302, "-");
+		outtextxy(440,302, "sec");
+		outtextxy(482,302, "cosec");
+		outtextxy(540,302, "cot");
+		outtextxy(590,302, "LOG");
+
+		outtextxy(390,352, "1/X");
+		outtextxy(446,352, "X");
+		outtextxy(490,352, "10");
+		outtextxy(545,352, "X");
+		line(595,348,614,348);
+		line(590,360,595,348);
+		line(590,360,590,353);
+
+		outtextxy(400,400, "/");
+		outtextxy(448,400, "X");
+		outtextxy(497,400, "*");
+		outtextxy(540,400, "rem");
+		outtextxy(600,400, "X!");
+
+		settextstyle(0,0,1);
+		outtextxy(457,395,"3");
+		outtextxy(455,347,"n");
+		outtextxy(506,347,"n");
+		outtextxy(553,347,"2");
+
+		       }
+
+
+		void text()
+		{
+	int choice, i, a, b,c;
+	float x, y, result;
+	gotoxy(10,2);
+	scanf("%d", &choice);
+      //	if(choice == 0) exit(0);
+	switch(choice)
+	 {
